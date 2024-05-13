@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-14T00:48:56 CEST" name="Default suite" finished-at="2024-05-14T00:49:15 CEST" duration-ms="19394">
+    <groups>
+    </groups>
+    <test started-at="2024-05-14T00:48:56 CEST" name="Default test" finished-at="2024-05-14T00:49:15 CEST" duration-ms="19394">
+      <class name="GoRestTests.CommentTests">
+        <test-method signature="GetAllComments()[pri:0, instance:GoRestTests.CommentTests@1921ad94]" started-at="2024-05-14T00:49:00 CEST" name="GetAllComments" finished-at="2024-05-14T00:49:02 CEST" duration-ms="1478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAllComments -->
+      </class> <!-- GoRestTests.CommentTests -->
+      <class name="GoRestTests.PostTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:GoRestTests.PostTests@1f010bf0]" started-at="2024-05-14T00:48:56 CEST" name="setup" finished-at="2024-05-14T00:48:57 CEST" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GetAllPosts()[pri:0, instance:GoRestTests.PostTests@1f010bf0]" started-at="2024-05-14T00:48:57 CEST" name="GetAllPosts" finished-at="2024-05-14T00:49:00 CEST" duration-ms="3298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAllPosts -->
+      </class> <!-- GoRestTests.PostTests -->
+      <class name="GoRestTests.UserTests">
+        <test-method signature="CreateNewUser_And_UpdateUser_Is_Successful()[pri:0, instance:GoRestTests.UserTests@177bea38]" started-at="2024-05-14T00:49:02 CEST" name="CreateNewUser_And_UpdateUser_Is_Successful" finished-at="2024-05-14T00:49:06 CEST" duration-ms="4696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewUser_And_UpdateUser_Is_Successful -->
+        <test-method signature="Create_New_User_Using_Existing_Email_Is_Unsuccessful()[pri:0, instance:GoRestTests.UserTests@177bea38]" started-at="2024-05-14T00:49:06 CEST" name="Create_New_User_Using_Existing_Email_Is_Unsuccessful" finished-at="2024-05-14T00:49:11 CEST" duration-ms="4362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_New_User_Using_Existing_Email_Is_Unsuccessful -->
+        <test-method signature="Create_New_User_With_Insufficient_Data_Is_Unsuccessful()[pri:0, instance:GoRestTests.UserTests@177bea38]" started-at="2024-05-14T00:49:11 CEST" name="Create_New_User_With_Insufficient_Data_Is_Unsuccessful" finished-at="2024-05-14T00:49:12 CEST" duration-ms="1157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_New_User_With_Insufficient_Data_Is_Unsuccessful -->
+        <test-method signature="Create_New_User_With_Sufficient_Data_Is_Successful()[pri:0, instance:GoRestTests.UserTests@177bea38]" started-at="2024-05-14T00:49:12 CEST" name="Create_New_User_With_Sufficient_Data_Is_Successful" finished-at="2024-05-14T00:49:14 CEST" duration-ms="2035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_New_User_With_Sufficient_Data_Is_Successful -->
+        <test-method signature="Get_Users_Returns_A_List_Of_Users()[pri:0, instance:GoRestTests.UserTests@177bea38]" started-at="2024-05-14T00:49:14 CEST" name="Get_Users_Returns_A_List_Of_Users" finished-at="2024-05-14T00:49:15 CEST" duration-ms="1420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Users_Returns_A_List_Of_Users -->
+      </class> <!-- GoRestTests.UserTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
